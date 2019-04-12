@@ -1,0 +1,36 @@
+body{
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    background: gray;
+}
+#navbar{
+  width: 100%;
+  height: 70px;
+  background: #f1f1f1;
+}
+#navbar ul{
+  width: 400px;
+  background: transparent;
+  float: right;
+  margin-right: 10px;
+}
+#navbar ul li{
+  display: inline-block;
+  color: blue;
+  padding: 10px;
+}
+.fixo{
+    position: fixed;
+    animation-duration: 1s;
+    animation-name: menu;
+    box-shadow: 2px solid black;
+}
+@keyframes menu{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
